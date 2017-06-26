@@ -9,6 +9,11 @@
             <file>file:/C:/Users/gilson/Documents/NetBeansProjects/_aulas/2017.1/CrudRest/src/java/recursos/ClienteRecurso.java</file>
             <file>file:/C:/Users/gilson/Documents/NetBeansProjects/_aulas/2017.1/CrudRest/src/java/dao/Conexao.java</file>
         </group>
-        <group/>
+        <group>
+            <file>file:/C:/Facul/trabalho/anduino/src/java/recursos/CasaService.java</file>
+            <file>file:/C:/Facul/trabalho/anduino/src/java/teste/TesteDeletar.java</file>
+            <file>file:/C:/Facul/trabalho/anduino/src/java/dao/CasaDAO.java</file>
+            <file>file:/C:/Facul/trabalho/anduino/src/java/recursos/ApplicationConfig.java</file>
+        </group>
     </open-files>
 </project-private>
