@@ -88,7 +88,7 @@ public class CasaService {
     @Path("buscarAgendamentos/{data}/{hora}")
     public String buscarAgendamentos(@PathParam("data") Long data,@PathParam ("hora") String hora) throws SQLException, ClassNotFoundException {
         Timestamp d = new Timestamp(data);
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         CasaCliente casa = new CasaCliente();
         csaBo = new CasaBO();
         casa = csaBo.verificarAgendamentos(format.format(d),hora);
@@ -102,7 +102,7 @@ public class CasaService {
     @Path("tempoCerto/{data}/{hora}")
     public String buscarPorData(@PathParam("data") Long data,@PathParam ("hora") String hora) throws SQLException, ClassNotFoundException {
         Timestamp d = new Timestamp(data);
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         CasaCliente casa = new CasaCliente();
         csaBo = new CasaBO();
         casa = csaBo.verificarAgendamentos(format.format(d),hora);
