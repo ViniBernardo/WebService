@@ -30,7 +30,7 @@ import javax.ws.rs.POST;
 /**
  * REST Web Service
  *
- * @author Rodrigo
+ * @author Vinicius
  */
 @Path("casa_service")
 public class CasaService {

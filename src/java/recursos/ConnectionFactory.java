@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author Rodrigo
+ * @author Vinicius
  */
 public class ConnectionFactory {
    private Connection conexao;

@@ -11,9 +11,9 @@
         </group>
         <group>
             <file>file:/C:/Facul/trabalho/anduino/src/java/recursos/CasaService.java</file>
-            <file>file:/C:/Facul/trabalho/anduino/src/java/teste/TesteDeletar.java</file>
+            <file>file:/C:/Facul/trabalho/anduino/src/java/teste/TesteData.java</file>
+            <file>file:/C:/Facul/trabalho/anduino/src/java/bo/CasaBO.java</file>
             <file>file:/C:/Facul/trabalho/anduino/src/java/dao/CasaDAO.java</file>
-            <file>file:/C:/Facul/trabalho/anduino/src/java/recursos/ApplicationConfig.java</file>
         </group>
     </open-files>
 </project-private>

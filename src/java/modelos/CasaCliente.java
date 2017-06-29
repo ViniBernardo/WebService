@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 
 /**
  *
- * @author Rodrigo
+ * @author Vinicius
  */
 public class CasaCliente {
     
